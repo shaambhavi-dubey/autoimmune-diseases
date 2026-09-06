@@ -1,0 +1,5 @@
+model,evaluation,macro_f1,weighted_f1
+Stacking (XGB+RF -> LogReg),single train/test split,0.829,0.832
+Stacking (XGB+RF -> SVC),single train/test split,0.823,0.831
+Stacking (XGB+RF -> LogReg) untuned,5-fold CV (fold-safe preprocessing),0.8100,0.8210
+Stacking (XGB+RF -> LogReg) standard-tuned (RandomizedSearchCV),5-fold CV (fold-safe preprocessing),0.8079,0.8196
